@@ -46,7 +46,7 @@
 
   function calc() {
       //var transport = new Thrift.Transport("/thrift/service/tutorial/");
-    var transport = new Thrift.Transport("/HandlerSample/anything-ending-with-thrift.thrift");
+    var transport = new Thrift.Transport("/anything-ending-with-thrift.thrift");
     var protocol  = new Thrift.Protocol(transport);
     var client    = new CalculatorClient(protocol);
 
