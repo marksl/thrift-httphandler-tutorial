@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlerSample", "HandlerSample\HandlerSample.csproj", "{002CAA4B-9065-40F1-98E7-2EE40A3F422A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thrift.Shared", "Thrift.Shared\Thrift.Shared.csproj", "{8230E287-5DF3-4E82-BCE6-6B5437E7C668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thrift.HttpService", "Thrift.HttpService\Thrift.HttpService.csproj", "{002CAA4B-9065-40F1-98E7-2EE40A3F422A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8230E287-5DF3-4E82-BCE6-6B5437E7C668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8230E287-5DF3-4E82-BCE6-6B5437E7C668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8230E287-5DF3-4E82-BCE6-6B5437E7C668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8230E287-5DF3-4E82-BCE6-6B5437E7C668}.Release|Any CPU.Build.0 = Release|Any CPU
 		{002CAA4B-9065-40F1-98E7-2EE40A3F422A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{002CAA4B-9065-40F1-98E7-2EE40A3F422A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{002CAA4B-9065-40F1-98E7-2EE40A3F422A}.Release|Any CPU.ActiveCfg = Release|Any CPU

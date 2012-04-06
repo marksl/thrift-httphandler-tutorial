@@ -1,11 +1,11 @@
 ﻿using Thrift.Protocol;
 using Thrift.Transport;
 
-namespace HandlerSample
+namespace Thrift.HttpService
 {
-    public class ThriftHttpHandler : THttpHandler
+    public class CalculatorHttpHandler : THttpHandler
     {
-        public ThriftHttpHandler()
+        public CalculatorHttpHandler()
             : base(CreateProcessor(), CreateJsonFactory())
         {
         }
