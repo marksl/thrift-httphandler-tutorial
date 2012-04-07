@@ -22,6 +22,7 @@
  * these definitions.
  */
 
+namespace csharp ThriftCommon.Calculator
 namespace cpp shared
 namespace java shared
 namespace perl shared
