@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using ThriftCommon.Calculator;
 
-namespace Thrift.HttpService
+namespace HttpService
 {
     public class CalculatorImplementation : Calculator.Iface
     {

@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Thrift.HttpService</RootNamespace>
-    <AssemblyName>Thrift.HttpService</AssemblyName>
+    <RootNamespace>HttpService</RootNamespace>
+    <AssemblyName>HttpService</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
@@ -63,9 +63,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Thrift.Shared\Thrift.Shared.csproj">
+    <ProjectReference Include="..\ThriftCommon\ThriftCommon.csproj">
       <Project>{8230E287-5DF3-4E82-BCE6-6B5437E7C668}</Project>
-      <Name>Thrift.Shared</Name>
+      <Name>ThriftCommon</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

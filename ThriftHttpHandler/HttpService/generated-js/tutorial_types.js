@@ -176,6 +176,6 @@ InvalidOperation.prototype.write = function(output) {
 };
 
 INT32CONSTANT = 9853;
-MAPCONSTANT = {'hello' : 'world',
-'goodnight' : 'moon'
+MAPCONSTANT = {'goodnight' : 'moon',
+'hello' : 'world'
 };

@@ -5,10 +5,13 @@
  *  @generated
  */
 
-public enum Operation
+namespace ThriftCommon.Calculator
 {
-  ADD = 1,
-  SUBTRACT = 2,
-  MULTIPLY = 3,
-  DIVIDE = 4,
+  public enum Operation
+  {
+    ADD = 1,
+    SUBTRACT = 2,
+    MULTIPLY = 3,
+    DIVIDE = 4,
+  }
 }

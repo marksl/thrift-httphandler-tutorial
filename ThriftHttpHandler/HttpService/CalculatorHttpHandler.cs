@@ -1,7 +1,8 @@
 ﻿using Thrift.Protocol;
 using Thrift.Transport;
+using ThriftCommon.Calculator;
 
-namespace Thrift.HttpService
+namespace HttpService
 {
     public class CalculatorHttpHandler : THttpHandler
     {

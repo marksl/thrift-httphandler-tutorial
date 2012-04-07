@@ -8,8 +8,8 @@
     <ProjectGuid>{8230E287-5DF3-4E82-BCE6-6B5437E7C668}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Thrift.Shared</RootNamespace>
-    <AssemblyName>Thrift.Shared</AssemblyName>
+    <RootNamespace>ThriftCommon</RootNamespace>
+    <AssemblyName>ThriftCommon</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -37,14 +37,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="Constants.cs" />
-    <Compile Include="InvalidOperation.cs" />
-    <Compile Include="Operation.cs" />
+    <Compile Include="Calculator\Calculator.cs" />
+    <Compile Include="Calculator\Constants.cs" />
+    <Compile Include="Calculator\InvalidOperation.cs" />
+    <Compile Include="Calculator\Operation.cs" />
+    <Compile Include="Calculator\SharedService.cs" />
+    <Compile Include="Calculator\SharedStruct.cs" />
+    <Compile Include="Calculator\Work.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SharedService.cs" />
-    <Compile Include="SharedStruct.cs" />
-    <Compile Include="Work.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
